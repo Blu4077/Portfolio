@@ -1,0 +1,23 @@
+:root{
+    --primary-bg: #0bc9cd;
+    --secondary-bg: #14fff7;
+    --primary-text: #1b3b6f;
+    --secondary-text: #21295c;
+    --section-bg: #f194b4;
+    --standard-gap: 20px;
+}
+
+body {
+    font-family: Verdana;
+    background: var(--primary-bg);
+    color: var(--primary-text);
+}
+
+#projects article{
+    background: var(--secondary-bg);
+    margin: var(--standard-gap);
+}
+
+nav {
+    background: yellow;
+}
