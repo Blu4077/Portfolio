@@ -38,6 +38,9 @@ h2 {
 }
 
 #projects article{
+    display: block;
+    width: fit-content;
+    padding: 10px;
     background: var(--secondary-bg);
     margin: var(--standard-gap);
     border: 3px solid var(--section);
