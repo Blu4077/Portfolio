@@ -33,6 +33,10 @@ h2 {
     text-align: center;
 }
 
+#projects{
+    text-align: center;
+}
+
 #projects article{
     background: var(--secondary-bg);
     margin: var(--standard-gap);
