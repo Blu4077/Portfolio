@@ -3,7 +3,7 @@
     --secondary-bg: #14fff7;
     --primary-text: #1b3b6f;
     --secondary-text: #21295c;
-    --section-bg: #f194b4;
+    --section: #f194b4;
     --standard-gap: 20px;
 }
 
@@ -11,6 +11,18 @@ body {
     font-family: Verdana;
     background: var(--primary-bg);
     color: var(--primary-text);
+}
+
+h1 {
+    color: var(--secondary-text);
+}
+
+#about {
+    margin: var(--standard-gap);
+    padding: 5px;
+    border: 3px solid var(--section);
+    background: var(--secondary-bg);
+    text-align: center;
 }
 
 #projects article{
