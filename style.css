@@ -5,6 +5,7 @@
     --secondary-text: #21295c;
     --section: #f194b4;
     --standard-gap: 20px;
+    --standard-radius: 20px;
 }
 
 body {
@@ -33,6 +34,7 @@ h2 {
     border: 3px solid var(--section);
     background: var(--secondary-bg);
     text-align: center;
+    border-radius: var(--standard-radius);
 }
 
 #projects{
@@ -41,11 +43,13 @@ h2 {
 
 #projects article{
     display: block;
+    align-items:center;
     width: fit-content;
     padding: 10px;
     background: var(--secondary-bg);
     margin: var(--standard-gap);
     border: 3px solid var(--section);
+    border-radius: var(--standard-radius);
 }
 
 nav {
