@@ -14,10 +14,12 @@ body {
 }
 
 h1 {
+    font-family: Georgia;
     color: var(--secondary-text);
 }
 
 h2 {
+    font-family: Georgia;
     color: var(--secondary-text);
 }
 
