@@ -37,17 +37,30 @@ h2 {
     border-radius: var(--standard-radius);
 }
 
-#projects{
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2, minmax(100px,auto));
-    gap: 1em;
+@media (min-width: 600px) {
+    #projects{
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(2,1fr); /*fr = fractional unit*/
+        grid-template-rows: repeat(2, minmax(100px,auto));
+        gap: 1em;
+    }
+
+    #projects h2{
+        grid-column: span 2 / span 2;
+    }
 }
 
-#projects h2{
-    grid-column: span 2 / span 2;
+@media (min-width: 1000px){
+    #projects{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    #projects h2{
+        grid-column: span 3 / span 3;
+    }
 }
+
 
 /*
 #projects .articles{
