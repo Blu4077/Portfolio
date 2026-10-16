@@ -51,6 +51,16 @@ h2 {
     }
 }
 
+@media (min-width: 200px){
+    #projects{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #projects h2{
+        grid-column: span 1 / span 1;
+    }
+}
+
 @media (min-width: 1000px){
     #projects{
         grid-template-columns: repeat(3, 1fr);
@@ -82,6 +92,36 @@ h2 {
     border-radius: var(--standard-radius);
 }
 
+/*No AI was used for this, prompt wise. But the text did come up automatically when i was typing this whole area out.*/
+header a{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+My prompts:
+
+I am trying to stay within the CSS file, but I would like to make a small box for my navigation that keeps center to the screen with flexbox being used as well.
+
+yes, my links are within the <ul> section in the html fine. Do I just put all that was provided into a ul rule instead of the nav rule??
+*/
+
 nav {
+    width: fit-content;
+    margin: var(--standard-gap) auto;
+    padding: 10px 20px;
+    background: var(--secondary-bg);
+    border: 3px solid var(--section);
+    border-radius: var(--standard-radius);
     font-size: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: var(--standard-gap);
+    padding: 0;
+    margin: 0;
 }
