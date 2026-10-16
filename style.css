@@ -37,7 +37,7 @@ h2 {
     border-radius: var(--standard-radius);
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
     #projects{
         text-align: center;
         display: grid;
@@ -51,7 +51,7 @@ h2 {
     }
 }
 
-@media (min-width: 200px){
+@media (max-width: 600px){
     #projects{
         grid-template-columns: repeat(1, 1fr);
     }
@@ -61,7 +61,7 @@ h2 {
     }
 }
 
-@media (min-width: 1000px){
+@media (min-width: 1200px){
     #projects{
         grid-template-columns: repeat(3, 1fr);
     }
@@ -85,6 +85,7 @@ h2 {
     display: block;
     align-items:center;
     width: fit-content;
+    height: fit-content;
     padding: 10px;
     background: var(--secondary-bg);
     margin: var(--standard-gap);
@@ -105,6 +106,8 @@ My prompts:
 I am trying to stay within the CSS file, but I would like to make a small box for my navigation that keeps center to the screen with flexbox being used as well.
 
 yes, my links are within the <ul> section in the html fine. Do I just put all that was provided into a ul rule instead of the nav rule??
+
+The following code is the response to my prompts minus the font size that I had already established in the nav rule.
 */
 
 nav {
