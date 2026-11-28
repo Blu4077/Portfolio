@@ -7,3 +7,4 @@
 ### https://www.geeksforgeeks.org/css/what-is-css-ruleset/ 
 ### https://www.w3schools.com/CSS/css_font_size.asp 
 ### https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/text-size-adjust 
+### Following link is how I learned how to make the Dark/Light mode function: https://www.w3schools.com/howto/howto_js_toggle_dark_mode.asp 
