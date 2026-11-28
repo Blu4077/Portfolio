@@ -112,6 +112,14 @@ button {
     display: block;
     padding: 10px;
     font-size: 20px;
+    background: var(--secondary-bg);
+    border: 3px solid var(--section);
+    color: var(--secondary-text);
+    border-radius: var(--standard-radius);
+}
+
+button:hover{
+    background: var(--primary-bg);
 }
 
 /*

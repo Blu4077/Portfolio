@@ -1,8 +1,8 @@
 window.onload = function() {
     ScrollReveal().reveal('.intro', {delay:1000});
     ScrollReveal().reveal('.about', {delay:1500});
-    ScrollReveal().reveal('.projects', {delay:3000});
-    ScrollReveal().reveal('.contacts', {delay:3500});
+    ScrollReveal().reveal('.projects', {delay:2500});
+    ScrollReveal().reveal('.contacts', {delay:3000});
 }
 
 function darkMode() {
