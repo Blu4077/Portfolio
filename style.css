@@ -79,6 +79,11 @@ h2 {
     }
 }
 
+#projects h3{
+    background: FloralWhite;
+    padding: 3px;
+    border-radius: 5px;
+}
 
 /*
 #projects .articles{
@@ -136,7 +141,7 @@ nav {
     width: fit-content;
     margin: var(--standard-gap) auto;
     padding: 10px 20px;
-    background: var(--secondary-bg);
+    background: FloralWhite;
     border: 3px solid var(--section);
     border-radius: var(--standard-radius);
     font-size: 20px;
