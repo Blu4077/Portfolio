@@ -8,6 +8,14 @@
     --standard-radius: 20px;
 }
 
+.dark-mode {
+    --primary-bg: #1b3b6f;
+    --secondary-bg: #21295c;
+    --primary-text: #0bc9cd;
+    --secondary-text: #14fff7;
+    --section: #f194b4;
+}
+
 body {
     font-family: Verdana;
     background: var(--primary-bg);
